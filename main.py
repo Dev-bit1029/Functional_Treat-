@@ -137,16 +137,22 @@ while True:
     choice = int(input("Please Enter Your Choice :- "))
     
     if choice == 1 :
+        print(input_data.__doc__)
         input_Data()
     elif choice == 2 :
+        print(summary().__doc__)
         Summary()
     elif choice == 3 :
+        print(factorial().__doc__)
         Factorial()
     elif choice == 4:
+        print(threshold().__doc__)
         threshold(data)
     elif choice == 5 :
+        print(sort().__doc__)
         sort(data)
     elif choice == 6:
+        print(statistics().__doc__)
         statistics()
     elif choice == 7 :
         print("Thank You For Using Data Analyzer And Transformer Program ")
