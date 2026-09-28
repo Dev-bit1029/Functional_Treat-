@@ -1,4 +1,4 @@
-# NOTE :- Summary Function Error  (2D Arrey )
+
 
 print("Welcome To The Data Analyzer And Transformer Program ")
 
@@ -137,13 +137,13 @@ while True:
     choice = int(input("Please Enter Your Choice :- "))
     
     if choice == 1 :
-        print(input_data.__doc__)
+        print(input_Data().__doc__)
         input_Data()
     elif choice == 2 :
-        print(summary().__doc__)
+        print(Summary().__doc__)
         Summary()
     elif choice == 3 :
-        print(factorial().__doc__)
+        print(Factorial().__doc__)
         Factorial()
     elif choice == 4:
         print(threshold().__doc__)
